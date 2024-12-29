@@ -187,9 +187,9 @@ This project is licensed under the MIT License.
 ---
 
 ## 📬 Contact  
-**Author**: Anchal Nautiyal Sai 
-- GitHub: [Anchal NautiyalSaii](https://github.com/Anchal NautiyalSaii)  
-- Email: Anchal NautiyalSai78144@gmail.com 
+**Author**: Anchal Nautiyal   
+- GitHub: [Anchal Nautiyal i](https://github.com/Anchal Nautiyal i)  
+- Email: Anchal Nautiyal 78144@gmail.com 
 
 ---
 
