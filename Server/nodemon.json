@@ -1,0 +1,6 @@
+{
+    "watch": ["**/*.ts",".env"],
+    "ext": "ts,json",
+    "exec": "ts-node ./index.ts"
+  }
+  

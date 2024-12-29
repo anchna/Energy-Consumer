@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./Server
+      dockerfile: Dockerfile
+    container_name: Energy-Consumption-Optimizer-server
+    ports:
+      - "4000:4000"   # Expose server's port 5000 on host
+    volumes:
+      - ./Server:/usr/src/app
+      - /usr/src/app/node_modules
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: Energy-Consumption-Optimizer-client
+    ports:
+      - "3000:3000"  # Expose client's port 3000 on host
+    volumes:
+      - ./client:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - server
